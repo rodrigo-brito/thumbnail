@@ -53,7 +53,7 @@ func Text(title, subtitle string, width, height int, font string, fontSize float
 			if err := dc.LoadFontFace(font, fontSize/2); err != nil {
 				log.Fatal(fmt.Errorf("error on load font: %w", err))
 			}
-			yCoordinate = float64(height)/2 + float64(len(lines)-1)*fontSize/2 - float64(len(lines))*fontSize
+			yCoordinate = float64(height)/2 + float64(len(lines)-1)*fontSize/4 - float64(len(lines))*fontSize/1.5
 			dc.DrawStringAnchored(subtitle, float64(width)/2, yCoordinate-fontSize/2, 0.5, 0.5)
 		}
 
