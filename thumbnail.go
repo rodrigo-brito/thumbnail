@@ -93,7 +93,7 @@ func main() {
 				options = append(options, Blur(blur))
 			}
 
-			if brightness := c.Float64("brightness"); brightness > 0 {
+			if brightness := c.Float64("brightness"); brightness != 0 {
 				options = append(options, Brightness(brightness))
 			}
 

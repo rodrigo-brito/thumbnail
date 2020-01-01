@@ -14,7 +14,7 @@ NAME:
    thumbnail - thumbnail builder
 
 USAGE:
-   thumbnail command [command options] [arguments...]
+   thumbnail [options] [image path or url]
 
 COMMANDS:
    help, h  Shows a list of commands or help for one command
