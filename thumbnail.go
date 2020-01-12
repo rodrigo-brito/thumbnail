@@ -63,7 +63,7 @@ func main() {
 			&cli.StringFlag{
 				Name:  "font,f",
 				Usage: "Font face",
-				Value: "font/pacifico.ttf",
+				Value: "font/good_brush.ttf",
 			},
 			&cli.Float64Flag{
 				Name:  "size",
